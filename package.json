@@ -17,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-storybook": "build-storybook",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 8008"
   },
   "eslintConfig": {
     "extends": [

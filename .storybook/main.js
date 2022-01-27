@@ -18,13 +18,21 @@ module.exports = {
         vue: {
           title: 'Vue Storybook - Dev',
           url: 'http://localhost:7007',
+        },
+        react: {
+          title: 'Vue Storybook - Dev',
+          url: 'http://localhost:6006',
         }
       };
     }
     return {
       vue: {
-        title: 'Vue Storybook - Prod',
+        title: 'Vue- Prod',
         url: 'https://sb-test-vue.netlify.app',
+      },
+      react: {
+        title: 'React',
+        url: 'https://sb-test-react.netlify.app',
       }
     };
   },
