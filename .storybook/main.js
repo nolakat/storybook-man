@@ -26,18 +26,7 @@ module.exports = {
       };
     }
     return {
-      html: {
-        title: 'HTML',
-        url: 'https://sb-test-html.netlify.app',
-      },
-      vue: {
-        title: 'Vue',
-        url: 'https://sb-test-vue.netlify.app',
-      },
-      react: {
-        title: 'React',
-        url: 'https://sb-test-react.netlify.app',
-      }
+
     };
   }
 };
