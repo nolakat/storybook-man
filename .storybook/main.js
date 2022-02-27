@@ -3,6 +3,15 @@ module.exports = {
   addons: [
     "@storybook/addon-essentials",
     'storybook-addon-designs',
+    '@storybook/addon-a11y',
+    {
+      name: '@storybook/addon-storysource',
+      options: {
+        loaderOptions: {
+          injectStoryParameters: false,
+        },
+      },
+    },
     {
       name: "@storybook/addon-postcss",
       options: {

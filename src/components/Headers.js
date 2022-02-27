@@ -5,7 +5,7 @@ import React from 'react';
  */
 export const Headers = () => {
   return (
-  <div>
+  <div className="flex flex-col gap-5">
     <h1 className="text-4xl">The quick brown fox jumps over the lazy dog</h1>
     <h2 className="text-3xl">The quick brown fox jumps over the lazy dog</h2>
     <h3 className="text-2xl">The quick brown fox jumps over the lazy dog</h3>
