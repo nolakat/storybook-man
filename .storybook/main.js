@@ -13,6 +13,14 @@ module.exports = {
       },
     },
     {
+      name: '@storybook/addon-docs',
+      options: {
+        sourceLoaderOptions: {
+          injectStoryParameters: false,
+        },
+      },
+    },
+    {
       name: "@storybook/addon-postcss",
       options: {
         postcssLoaderOptions: {
